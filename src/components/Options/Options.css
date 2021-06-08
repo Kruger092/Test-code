@@ -1,0 +1,31 @@
+.optionsWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 45px;
+}
+
+select {
+    height: 30px;
+    width: 55%;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+.css-2b097c-container {
+    width: 50%;
+}
+
+@media screen and (max-width: 1500px) {
+    .optionsWrap {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .optionsWrap {
+        margin: 20px 45px;
+    }
+}
+

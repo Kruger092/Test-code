@@ -1,0 +1,69 @@
+.container__amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 60px 0;
+}
+
+.amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 95px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #E2E9F0;
+    transition:  all .2s ease-in-out;
+}
+
+.amount button {
+    background: 0;
+    border: 0;
+    font-size: 20px;
+    margin: 0 5px;
+    color: #000;
+    cursor: pointer;
+}
+
+.amount:hover {
+    box-shadow: 0px 0px 5px 2px #dbd4d4bb;
+    cursor: pointer;
+    background-color: #D8E3EE;
+}
+
+.button {
+    background: linear-gradient(261.65deg, #EFBB37 -3.95%, #CF9E1F 109.44%);
+    border: 0;
+    border-radius: 30px;
+    height: 40px;
+    width: 60%;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition:  all .2s ease-in-out;
+}
+
+.button:hover {
+    background: linear-gradient(261.65deg, #E9B32C -3.95%, #BF911A 109.44%);
+    box-shadow: 0px 0px 10px 2px #ecb52b;
+    cursor: pointer;
+}
+
+.button:active{
+    background:linear-gradient(261.65deg, #FFD773 -3.95%, #E2B645 109.44%);
+    box-shadow: 0px 0px 10px 2px linear-gradient(261.65deg, #FFD773 -3.95%, #E2B645 109.44%);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1500px) {
+    .container__amount{
+        margin: 25px 10px 0;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .container__amount{
+        margin: 25px 60px 0;
+    }
+}
+
